@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Warna latar belakang halaman */
+}
+
+header {
+    background-color: #e9ecef; /* Warna latar belakang header */
+    color: #343a40; /* Warna teks header */
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #343a40; /* Warna teks menu */
+    text-decoration: none;
+}
+
+footer {
+    background-color: #e9ecef; /* Warna latar belakang footer */
+    color: #343a40; /* Warna teks footer */
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.whatsapp-button,
+.instagram-button,
+.telegram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* Warna teks tombol */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-button:hover,
+.instagram-button:hover,
+.telegram-button:hover {
+    background-color: #007bff; /* Warna latar belakang tombol saat dihover */
+}
